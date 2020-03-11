@@ -1,0 +1,12 @@
+---
+title: "Doing it right"
+date: "2020-03-11"
+---
+
+I always tell myself that I don't have the time or energy to code outside of work and that's ok. I think that there's a lot of truth to that but I also suspect that there's more to the story. I mean yes, I do get my fair share of coding done at work so I don't think I'm missing out on learning and keeping up to date. I don't believe that you have to live and breathe code to be great at your work. But I still have that itch to sometimes build things just for the fun of it, because I can. 
+
+Whenever I start a new project I always end up at the same place. I overthink, get stuck on silly details, get mad over everything that I don't understand and I have this notion about getting it exactly right from the start. I set the demands far too high and I suck the joy out of it, the same way a candle goes out when you deprive it of oxygen. It's not fun to code silly things if every line of code takes fifty rounds of second-guessing myself. Because of this, I always abandon my old projects. They end up gathering digital dust somewhere, like a garbage mountain of my failures.
+
+Since I know that this isn't the most healthy way of doing things (people have told me), I tend not to even try. It's a shame though because I do suspect that some part of me find coding quite amusing (I might deny it later). So, since the problem is that I crackle under the enormous weight of my own demands I'm trying to redefine what doing it right means for me. It should not be about perfection, pondering about the most future proof folder structure or rewriting the same lines of code ten times to meet best practice. Doing it the right way should signify having fun and just cowboy-hack-away. The end result doesn't really matter and I don't have to understand every single line of code used.
+
+If I do get something up and running it will not be code perfection or perform flawlessly and it will most certainly not be pleasing to the eye. (Really trying my absolute best to get something pretty out there and ending up with something that disturbs the eye like an escaped eyelash on the eyeball, is something I take great pride in. I cannot make things pretty so designers gather around me whenever I unveil my masterpiece. My ultimate power! I might have lost track here...). But it might mean that I got out of my own head and I might even have had fun doing it. :tada:

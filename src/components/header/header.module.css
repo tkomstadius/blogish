@@ -1,8 +1,7 @@
-@import "../variables.css";
-
 .container {
-  background-color: var(--header);
+  background-color: var(--accent);
   padding: 2rem;
+  box-shadow: 0 3px 5px var(--shadow);
 }
 
 .home {
@@ -12,4 +11,5 @@
 .link {
   color: var(--text);
   text-decoration: none;
+  font-weight: 600;
 }

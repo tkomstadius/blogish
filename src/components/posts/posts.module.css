@@ -1,0 +1,40 @@
+.container {
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 1rem 2rem 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 6px 10px var(--shadow);
+  max-width: 1080px;
+}
+
+.count {
+  text-align: end;
+  margin: 0;
+}
+
+.post {
+  padding: 1em 0;
+}
+
+.post:hover {
+  color: var(--text-sec);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  display: inline;
+}
+
+.date {
+  color: var(--text-sec);
+  display: inline;
+  text-align: end;
+}
+
+.excerpt {
+  margin: 0.5em 0 0;
+}

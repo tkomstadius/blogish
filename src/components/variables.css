@@ -1,5 +1,14 @@
 :root {
-  --header: #aacfd0;
   --background: #f4f7f7;
+  --accent: #aac9d0ee;
+  --text-sec: #5da0a2;
   --text: #34495e;
+  --shadow: rgba(128, 128, 128, 0.646);
+
+  /* --light: #C0C0C0;
+  --dark: #808080;
+  --background: #F2F2F2;
+  --shadow: gray;
+  --sec-text: #606060;
+  --text: #333333; */
 }
