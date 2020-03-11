@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
-
 import Header from '../header/header'
+import Emoji, { CONSTRUCTION } from '../emoji/emoji'
 import styles from './layout.module.css'
 
 const Layout = ({ children }) => {
@@ -21,9 +21,10 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <h4 className={styles.footerText}>
+          <Emoji type={CONSTRUCTION} /> Under Construction{' '}
+          <Emoji type={CONSTRUCTION} />
+        </h4>
       </footer>
     </div>
   )

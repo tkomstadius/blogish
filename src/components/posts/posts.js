@@ -37,18 +37,15 @@ const Posts = () => {
       <p className={styles.count}>
         Post count: {totalCount} <Emoji type={POSTS} />
       </p>
-      {edges.map(({ node }) => {
-        console.log(node)
-        return (
-          <div key={node.id} className={styles.post}>
-            <Link to={node.fields.slug} className={styles.link}>
-              <h2 className={styles.title}>{node.frontmatter.title}</h2>
-              <p className={styles.date}> - {node.frontmatter.date}</p>
-              <p className={styles.excerpt}>{node.excerpt}</p>
-            </Link>
-          </div>
-        )
-      })}
+      {edges.map(({ node }) => (
+        <div key={node.id} className={styles.post}>
+          <Link to={node.fields.slug} className={styles.link}>
+            <h2 className={styles.title}>{node.frontmatter.title}</h2>
+            <p className={styles.date}> - {node.frontmatter.date}</p>
+            <p className={styles.excerpt}>{node.excerpt}</p>
+          </Link>
+        </div>
+      ))}
     </div>
   )
 }
