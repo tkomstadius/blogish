@@ -1,0 +1,15 @@
+@import "../variables.css";
+
+.container {
+  background-color: var(--header);
+  padding: 2rem;
+}
+
+.home {
+  font-size: 2em;
+}
+
+.link {
+  color: var(--text);
+  text-decoration: none;
+}
